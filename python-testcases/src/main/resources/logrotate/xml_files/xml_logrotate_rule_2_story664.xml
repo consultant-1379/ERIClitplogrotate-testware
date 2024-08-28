@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<litp:logrotate-rule-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:litp="http://www.ericsson.com/litp" xsi:schemaLocation="http://www.ericsson.com/litp litp-xml-schema/litp.xsd" id="n1test06a">
+  <litp:logrotate-rule-config-rules-collection id="rules">
+    <litp:logrotate-rule id="logrule_06a">
+      <compress>false</compress>
+      <copytruncate>true</copytruncate>
+      <name>rule1</name>
+      <path>/var/log/logrotate_rule.log</path>
+      <rotate>5</rotate>
+    </litp:logrotate-rule>
+  </litp:logrotate-rule-config-rules-collection>
+</litp:logrotate-rule-config>
